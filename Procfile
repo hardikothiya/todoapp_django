@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn todoapp_django.wsgi
+web: python manage.py migrate && gunicorn todo_list.wsgi
