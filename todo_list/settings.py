@@ -70,7 +70,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'todo_list.wsgi.application'
 
-CSRF_TRUSTED_ORIGINS = ["https://todoappdjango-production.up.railway.app/"]
+CSRF_TRUSTED_ORIGINS = ["https://todoappdjango-production.up.railway.app"]
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
